@@ -7,6 +7,7 @@ import { TruongComponent } from './truong/truong.component';
 import { DuongComponent } from './duong/duong.component';
 import { Duong3Component } from './duong3/duong3.component';
 import { Truong4Component } from './truong4/truong4.component';
+import { QuanComponent } from './quan/quan.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { Truong4Component } from './truong4/truong4.component';
     TruongComponent,
     DuongComponent,
     Duong3Component,
-    Truong4Component
+    Truong4Component,
+    QuanComponent
   ],
   imports: [
     BrowserModule,
