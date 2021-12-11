@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TruongComponent } from './truong/truong.component';
 import { DuongComponent } from './duong/duong.component';
+import { Truong4Component } from './truong4/truong4.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TruongComponent,
-    DuongComponent
+    DuongComponent,
+    Truong4Component
   ],
   imports: [
     BrowserModule,
